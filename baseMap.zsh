@@ -1,5 +1,6 @@
 export EDITOR='nvim'
-export VIMPATH='~/.config/nvim'
+export HOME='/home/mosquito/'
+export VIMPATH="$HOME/.config/nvim"
 
 alias vim='nvim'
 alias ls='ls --color'
