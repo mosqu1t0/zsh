@@ -1,4 +1,20 @@
+bindkey '^v' edit-command-line
+bindkey -v
+bindkey -M vicmd "u" vi-insert
+bindkey -M vicmd "a" vi-insert-bol
+bindkey -M vicmd "h" vi-backward-char
+bindkey -M vicmd "i" vi-forward-char
+bindkey -M vicmd "U" vi-beginning-of-line
+bindkey -M vicmd "A" vi-end-of-line
+bindkey -M vicmd "n" down-line-or-history
+bindkey -M vicmd "e" up-line-or-history
+bindkey -M vicmd "l" undo
+#bindkey -M vicmd "-" vi-rev-repeat-search
+bindkey -M vicmd "k" vi-repeat-search
+bindkey -M vicmd "b" vi-forward-word-end
+  
 function zle-keymap-select {
+
 	if [[ ${KEYMAP} == vicmd ]] || [[ $1 = 'block' ]]; then
 		echo -ne '\e[1 q'
 	elif [[ ${KEYMAP} == main ]] || [[ ${KEYMAP} == viins ]] || [[ ${KEYMAP} = '' ]] || [[ $1 = 'beam' ]]; then
