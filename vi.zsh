@@ -1,7 +1,6 @@
 bindkey '^v' edit-command-line
 bindkey -v
 bindkey -M vicmd "u" vi-insert
-bindkey -M vicmd "a" vi-insert-bol
 bindkey -M vicmd "h" vi-backward-char
 bindkey -M vicmd "i" vi-forward-char
 bindkey -M vicmd "U" vi-beginning-of-line
