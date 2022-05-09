@@ -80,6 +80,7 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
+setxkbmap us -variant colemak
 
 source ~/zsh/baseMap.zsh
 source ~/zsh/function.zsh
