@@ -5,10 +5,10 @@ clear Lock
 
 !clear Shift
 !clear Control
-clear Mod1
+!clear Mod1
 !clear Mod2
 !clear Mod3
-clear Mod4
+!clear Mod4
 !clear Mod5
 !
 keycode  49 =        grave    asciitilde       dead_tilde        asciitilde            
@@ -71,9 +71,9 @@ keycode  65 =        space         space            space      nobreakspace
 
 !add    Shift   = Shift_L Shift_R
 !add    Control = BackSpace BackSpace
-add    Mod1    = Super_L Super_R Super_L Hyper_L
+!add    Mod1    = Super_L Super_R Super_L Hyper_L
 !add    Mod2    = Num_Lock
-add    Mod4    = Alt_L Alt_R Alt_L
+!add    Mod4    = Alt_L Alt_R Alt_L
 !add    Mod5    = Scroll_Lock 
 
 !keycode   9 = Escape
