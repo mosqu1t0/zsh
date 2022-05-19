@@ -11,3 +11,4 @@ alias reboot='sudo systemctl reboot'
 alias poweroff='sudo systemctl poweroff'
 
 alias droptrash='sudo rm -rf /home/mosquito/.local/share/Trash/*'
+alias pc='proxychains'
