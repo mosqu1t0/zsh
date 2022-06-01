@@ -25,6 +25,6 @@ alias ll='ls -l'
 alias reboot='signOut && sudo systemctl reboot'
 alias poweroff='signOut && sudo systemctl poweroff'
 
-alias droptrash='sudo rm -vrf /home/mosquito/.local/share/Trash/*'
+alias droptrash='sudo rm -vrfI /home/mosquito/.local/share/Trash/*'
 alias pc='proxychains4'
 
