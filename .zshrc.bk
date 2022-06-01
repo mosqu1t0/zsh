@@ -83,6 +83,7 @@ source $ZSH/oh-my-zsh.sh
 source ~/zsh/baseMap.zsh
 source ~/zsh/function.zsh
 source ~/zsh/vi.zsh
+source ~/zsh/fzf.zsh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
