@@ -1,7 +1,7 @@
 export EDITOR='nvim'
 export HOME='/home/mosquito'
 export VIMPATH="$HOME/.config/nvim"
-export PATH="$PATH:/home/mosquito/Mybin"
+export PATH="$PATH:/home/mosquito/Desktop"
 
 
 
