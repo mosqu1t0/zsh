@@ -15,6 +15,9 @@ alias ip='ip -color=auto'
 export LESS='-R --use-color -Dd+r$Du+b'
 alias ls='ls --color'
 alias ll='ls -l'
+alias spS='sudo pacman -S'
+alias spSs='sudo pacman -Ss'
+alias syyu='sudo pacman -Syyu'
 
 
 
