@@ -16,6 +16,8 @@ export LESS='-R --use-color -Dd+r$Du+b'
 alias ls='ls --color'
 alias ll='ls -l'
 alias spS='sudo pacman -S'
+alias spR='sudo pacman -Rns'
+alias spQ='sudo pacman -Q'
 alias spSs='sudo pacman -Ss'
 alias syyu='sudo pacman -Syyu'
 
@@ -25,8 +27,8 @@ alias syyu='sudo pacman -Syyu'
 
 # user design -------------------------------
 
-alias reboot='signOut && sudo systemctl reboot'
-alias poweroff='signOut && sudo systemctl poweroff'
+alias reboot='sudo systemctl reboot'
+alias poweroff='sudo systemctl poweroff'
 
 alias droptrash='sudo rm -vrfI /home/mosquito/.local/share/Trash/*'
 alias pc='proxychains4'

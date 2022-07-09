@@ -85,6 +85,7 @@ source ~/zsh/baseMap.zsh
 source ~/zsh/function.zsh
 source ~/zsh/vi.zsh
 source ~/zsh/fzf.zsh
+source ~/zsh/theme.zsh
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"

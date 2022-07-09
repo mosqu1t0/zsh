@@ -1,10 +1,11 @@
+# http://bolyai.cs.elte.hu/zsh-manual/zsh_14.html
 bindkey '^v' edit-command-line
 bindkey -v
 bindkey -M vicmd "u" vi-insert
 bindkey -M vicmd "h" vi-backward-char
 bindkey -M vicmd "i" vi-forward-char
-bindkey -M vicmd "U" vi-beginning-of-line
-bindkey -M vicmd "A" vi-end-of-line
+bindkey -M vicmd "U" vi-insert-bol
+bindkey -M vicmd "A" vi-add-eol
 bindkey -M vicmd "n" down-line-or-history
 bindkey -M vicmd "e" up-line-or-history
 bindkey -M vicmd "l" undo

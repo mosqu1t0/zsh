@@ -6,10 +6,10 @@ clear Lock
 
 !clear Shift
 !clear Control
-!clear Mod1
+clear Mod1
 !clear Mod2
 !clear Mod3
-!clear Mod4
+clear Mod4
 !clear Mod5
 !
 keycode  49 =        grave    asciitilde       dead_tilde        asciitilde            
@@ -63,7 +63,7 @@ keycode  59 =        comma          less     dead_cedilla        asciitilde
 keycode  60 =       period       greater    dead_abovedot        asciitilde            
 keycode  61 =        slash      question     questiondown        asciitilde            
                                                                                       
-keycode  66 = BackSpace BackSpace BackSpace BackSpace
+keycode  66 = BackSpace Terminate_Server
 keycode  94 =        minus    underscore           endash            emdash            
 keycode  65 =        space         space            space      nobreakspace            
 !keycode 113 =  Mode_switch   Mode_switch                                               
@@ -72,9 +72,9 @@ keycode  65 =        space         space            space      nobreakspace
 
 !add    Shift   = Shift_L Shift_R
 !add    Control = BackSpace BackSpace
-!add    Mod1    = Super_L Super_R Super_L Hyper_L
+add    Mod1    = Super_L Super_R Super_L Hyper_L
 !add    Mod2    = Num_Lock
-!add    Mod4    = Alt_L Alt_R Alt_L
+add    Mod4    = Alt_L Alt_R Alt_L
 !add    Mod5    = Scroll_Lock 
 
 !keycode   9 = Escape
@@ -85,7 +85,7 @@ keycode  65 =        space         space            space      nobreakspace
 !keycode  50 = Shift_L
 !keycode  62 = Shift_R
 !keycode  63 = KP_Multiply XF86_ClearGrab
-!keycode  64 = 
+keycode  64 = Super_L
 !keycode  67 = F1 XF86_Switch_VT_1
 !keycode  68 = F2 XF86_Switch_VT_2
 !keycode  69 = F3 XF86_Switch_VT_3
@@ -122,10 +122,10 @@ keycode  65 =        space         space            space      nobreakspace
 !keycode 102 = Right
 !keycode 103 = End
 !keycode 104 = Down
-!keycode 105 = Next
+! keycode 105 = Control_R
 !keycode 106 = Insert
 !keycode 107 = Delete
-!keycode 108 = KP_Enter
+! keycode 108 = Control_R
 !keycode 109 = Control_R
 !keycode 110 = Pause Break
 !keycode 111 = Print Sys_Req
@@ -153,7 +153,7 @@ keycode  65 =        space         space            space      nobreakspace
 !keycode 130 =
 !keycode 131 =
 !keycode 132 =
-!keycode 133 = 
+keycode 133 = Alt_L
 !keycode 134 =
 !keycode 135 =
 !keycode 136 =
